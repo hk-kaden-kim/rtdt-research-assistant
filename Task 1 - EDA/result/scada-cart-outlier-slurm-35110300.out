@@ -1,0 +1,51 @@
+###############################################################
+
+Slurm JOB Logs
+...
+
+
+###############################################################
+Load SCADA data from data_root/scada_df.csv
+DONE! Scada DataFrame (721, 5)
+
+Load Sensor data from data_root/scada_df.csv
+DONE! Sensor DataFrame (16618236, 16)
+
+0it [00:00, ?it/s]11it [00:00, 105.30it/s]26it [00:00, 127.20it/s]28it [00:00, 124.94it/s]
+
+Check Outlier in Wind speed by each time frame 1440 min
+Time
+2021-02-06    1
+2021-02-08    1
+2021-02-09    1
+2021-02-12    3
+2021-02-15    2
+2021-02-16    2
+2021-02-18    3
+2021-02-22    2
+2021-02-25    1
+2021-02-27    3
+Save Outlier Detection Plot at ./scada_ws_outlier.png
+
+0it [00:00, ?it/s]9it [00:00, 65.37it/s]23it [00:00, 101.80it/s]28it [00:00, 101.64it/s]
+
+Check Outlier in Power by each time frame 1440 min
+Time
+2021-02-01    1
+2021-02-02    1
+2021-02-03    7
+2021-02-04    2
+2021-02-05    1
+2021-02-06    3
+2021-02-08    6
+2021-02-11    2
+2021-02-12    4
+2021-02-13    2
+2021-02-14    1
+2021-02-17    1
+2021-02-19    2
+2021-02-20    7
+2021-02-22    1
+2021-02-27    4
+Save Outlier Detection Plot at ./scada_pw_outlier.png
+

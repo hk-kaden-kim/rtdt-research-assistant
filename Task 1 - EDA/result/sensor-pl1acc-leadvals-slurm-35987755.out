@@ -1,0 +1,51 @@
+###############################################################
+
+Slurm JOB Logs
+...
+
+
+###############################################################
+Load SCADA data from data_root/scada_df.csv
+DONE! Scada DataFrame (721, 5)
+
+Load Sensor data from data_root/scada_df.csv
+DONE! Sensor DataFrame (16618236, 16)
+
+100%|██████████| 16616979/16616979 [46:31<00:00, 5952.68it/s]
+
+Check Leading/None/Missing values in P10_PL1_ACC_WHITE.
+Window = 240min / Threshold = 1e-05
+
+Leading Value Counts: 0
+
+
+None Value Counts: 0
+
+
+Missing Value Counts: 12
+2021-02-03 13:35:06,	2021-02-04 12:48:02,	2021-02-07 20:45:46,	
+2021-02-08 01:33:54,	2021-02-13 09:44:41,	2021-02-13 14:45:11,	
+2021-02-13 16:55:24,	2021-02-13 20:55:48,	2021-02-20 17:35:33,	
+2021-02-20 21:35:56,	2021-02-21 22:16:01,	2021-02-22 03:04:07,	
+Save Leading Value Plot at ./scada_pl1accw_leadval.png
+
+
+
+100%|██████████| 16616979/16616979 [47:36<00:00, 5817.26it/s]
+
+Check Leading/None/Missing values in P10_PL1_ACC_GREEN.
+Window = 240min / Threshold = 1e-05
+
+Leading Value Counts: 0
+
+
+None Value Counts: 0
+
+
+Missing Value Counts: 12
+2021-02-03 13:35:06,	2021-02-04 12:48:02,	2021-02-07 20:45:46,	
+2021-02-08 01:33:54,	2021-02-13 09:44:41,	2021-02-13 14:45:11,	
+2021-02-13 16:55:24,	2021-02-13 20:55:48,	2021-02-20 17:35:33,	
+2021-02-20 21:35:56,	2021-02-21 22:16:01,	2021-02-22 03:04:07,	
+Save Leading Value Plot at ./scada_pl1accg_leadval.png
+
